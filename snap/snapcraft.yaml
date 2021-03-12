@@ -8,8 +8,8 @@ description: |
 
   The agent is intended to operate on a device running Ubuntu or Ubuntu Core with snapd enabled.
   The device management features are implemented using the snapd REST API.
-confinement: strict
-grade: stable
+confinement: devmode
+grade: devel
 base: core20
 
 apps:
